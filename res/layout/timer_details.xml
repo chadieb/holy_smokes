@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="#FFF">
+  
+<LinearLayout android:id="@+id/headerLayout" 
+	android:background="#e3c693"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" android:orientation="horizontal" android:padding="1pt">
+    <ImageView android:layout_width="wrap_content" android:layout_weight="0" android:layout_height="wrap_content" android:id="@+id/small_icon" android:layout_gravity="center" android:scaleType="fitStart" android:background="@drawable/small_icon"></ImageView>
+    <TextView android:layout_width="wrap_content" android:text="TextView" android:layout_height="wrap_content" android:layout_weight="0" android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/detail_details_header_text" android:layout_gravity="center_vertical" android:paddingLeft="5pt"></TextView>
+
+</LinearLayout>
+    
+    
+<TableLayout android:id="@+id/TableLayout01" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginTop="5pt" android:layout_width="fill_parent">
+
+<TableRow android:layout_width="fill_parent" android:paddingTop="5pt">
+<TextView  android:id="@+id/detail_categoryTitle" 
+	android:layout_column="1"  
+	android:text="Category:" 
+	android:textColor="#000"
+	android:gravity="right"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" android:textSize="8pt" android:layout_gravity="center_vertical"></TextView>
+	
+<TextView android:id="@+id/detail_categoryText" 
+	android:textSize="8pt"
+	android:gravity="left"
+	android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1"></TextView>
+</TableRow>
+<TableRow android:layout_width="fill_parent" android:paddingTop="5pt">
+<TextView  android:id="@+id/detail_nameTitle" 
+	android:layout_column="1"  
+	android:text="Name:" 
+	android:textColor="#000"
+	android:gravity="right"
+	android:textSize="8pt" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" android:layout_gravity="center_vertical"></TextView>
+	
+<TextView android:id="@+id/detail_nameText" 
+	android:textSize="8pt"
+	android:gravity="left"
+	android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1"></TextView>
+</TableRow>
+<TableRow android:layout_width="fill_parent" android:visibility="invisible" android:id="@+id/select_subtype_row" android:paddingTop="5pt">	
+<TextView  android:id="@+id/detail_cutTextView" 
+	android:layout_column="1" 
+	android:text="Cut:" 
+	android:textColor="#000"
+	android:textSize="8pt" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" android:gravity="center_vertical|right" android:layout_gravity="center_vertical"></TextView>
+	
+<Spinner android:id="@+id/detail_cutText" 
+	android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_weight="1"></Spinner>
+</TableRow>
+</TableLayout>
+<TableLayout android:layout_width="wrap_content" 
+	android:id="@+id/TableLayout02" android:layout_height="wrap_content" android:layout_weight="1">
+<TableRow>
+    <TextView android:paddingTop="5pt" android:text="Cooking Method: " android:id="@+id/detail_MethodTextView" android:gravity="right" android:layout_width="wrap_content" android:textColor="#000" android:layout_height="wrap_content" android:textSize="8pt"></TextView>
+</TableRow>
+<TableRow>	
+<TextView  android:id="@+id/detail_CookTimeTextView" 
+	android:padding="5dp"
+	android:text="Cooking Time:" 
+	android:textColor="#000"
+	android:textSize="8pt" 
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" android:gravity="right"></TextView>
+</TableRow>
+</TableLayout>
+
+<ScrollView android:id="@+id/detail_intervalScroll" 
+	android:layout_height="40pt" 
+	android:background="#FFF" android:layout_weight="1" android:paddingTop="5pt" android:layout_width="fill_parent">
+<TableLayout
+	android:id="@+id/detail_intervalTableLayout"
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+<TableRow android:background="#1D5083">
+	<TextView android:id="@+id/detail_headerName"
+		android:text="Interval" 
+		android:textSize="6pt" 
+		android:textColor="#fff"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_weight="1">
+	</TextView>
+	<TextView android:id="@+id/detail_headerTime"
+		android:text="Time" 
+		android:textColor="#fff"
+		android:textSize="6pt" 
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:layout_weight="1">
+	</TextView>
+</TableRow>
+</TableLayout>
+</ScrollView>
+
+<Button android:text="   Ok" android:id="@+id/detail_okBtn" 
+	android:padding="5dp"
+	android:layout_height="wrap_content" 
+	android:layout_gravity="bottom|center" android:layout_width="141dp"></Button>
+	
+
+
+</LinearLayout>

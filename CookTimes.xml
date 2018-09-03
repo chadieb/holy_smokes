@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<CookCookrs xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<CookCookr Name="Beef" Category="Flank steak">
+		<Cook>Direct</Cook>
+		<Time>17</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="New York strip" Thickness=" 1-1 1/2 lbs">
+		<Cook>Direct</Cook>
+		<Time>11</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Ribeye" Thickness="3/4 in.">
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Porterhouse" Thickness="1 in">
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Porterhouse" Thickness="1 1/2 in">
+		<Cook>Direct</Cook>
+		<Time>13</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Porterhouse" Thickness="2 in">
+		<Cook>Direct</Cook>
+		<Time>18</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Ribeye sirloin" Thickness="1 in">
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Ribeye sirloin" Thickness="1 1/2 in">
+		<Cook>Direct</Cook>
+		<Time>13</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Ribeye sirloin" Thickness="2 in">
+		<Cook>Direct</Cook>
+		<Time>18</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="T-Bone" Thickness="1 in">
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="T-Bone" Thickness="1 1/2 in">
+		<Cook>Direct</Cook>
+		<Time>13</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="T-Bone" Thickness="2 in">
+		<Cook>Direct</Cook>
+		<Time>18</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Top loin" Thickness="1 in">
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Top loin" Thickness="1 1/2 in">
+		<Cook>Direct</Cook>
+		<Time>13</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Top loin" Thickness="2 in">
+		<Cook>Direct</Cook>
+		<Time>18</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Brisket" Thickness="5-6 lbs">
+		<Cook>Indirect</Cook>
+		<Time>90</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Eye of round" Thickness="2-3 lbs">
+		<Cook>Indirect</Cook>
+		<Time>105</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Rib Eye" Thickness="4-6 lbs">
+		<Cook>Indirect</Cook>
+		<Time>150</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Rib Roast" Thickness="4-6 lbs">
+		<Cook>Indirect</Cook>
+		<Time>135</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Sirloin Roast" Thickness="2-3 lbs">
+		<Cook>Indirect</Cook>
+		<Time>60</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Half Tenderloin" Thickness="4-5 lbs">
+		<Cook>Indirect</Cook>
+		<Time>90</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Tri Tip" Thickness="3-5 lbs">
+		<Cook>Y</Cook>
+		<Cook>Indirect</Cook>
+		<Time>120</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Tri Tip" Thickness="6-8 lbs">
+		<Cook>Indirect</Cook>
+		<Time>180</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Top Round" Thickness="4-6 lbs">
+		<Cook>Indirect</Cook>
+		<Time>90</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Blade Steak" Thickness="1/2 in">
+		<Cook>Direct</Cook>
+		<Time>12</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Chops" Thickness="3/4-2 in">
+		<Cook>Direct</Cook>
+		<Time>15</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Loin" Thickness="1 1/2 in">
+		<Cook>Direct</Cook>
+		<Time>42</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Ribs (Full Rack)" Thickness="1 1/2 in">
+		<Cook>Y</Cook>
+		<Cook>Indirect</Cook>
+		<Time>130</Time>
+		<Intervals>
+			<Interval Name="Smoke">
+				<Cook>120</Cook>
+			</Interval>
+			<Interval Name="Mop Sauce Top">
+				<Cook>5</Cook>
+			</Interval>
+			<Interval Name="Mop Sauce Bottom">
+				<Cook>5</Cook>
+			</Interval>
+		</Intervals>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Shoulder" Thickness="6 lbs">
+		<Cook>Indirect</Cook>
+		<Time>360</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Spare Ribs" Thickness="3-4 lbs">
+		<Cook>Indirect</Cook>
+		<Time>75</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Meatloaf" Thickness="1 1/2 lbs">
+		<Cook>Y</Cook>
+		<Cook>Direct</Cook>
+		<Time>75</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Hamburger Patty" Thickness="6 oz">
+		<Cook>Y</Cook>
+		<Cook>Direct</Cook>
+		<Time>7</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Chuck pot roast" Thickness="3-5 lbs">
+		<Cook>Direct</Cook>
+		<Time>140</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Boston butt" Thickness="3-6 lbs">
+		<Cook>Direct</Cook>
+		<Time>180</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Boneless top loin roast" Thickness="2-4 lbs">
+		<Cook>Direct</Cook>
+		<Time>60</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Whole ham (bone-in)" Thickness="12-14 lbs">
+		<Cook>Direct</Cook>
+		<Time>145</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Broiler-fryer chicken (halves)" Thickness="1 1/2-2 lbs">
+		<Cook>Indirect</Cook>
+		<Time>70</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Broiler-fryer chicken (whole)" Thickness="3-4 lbs">
+		<Cook>Indirect</Cook>
+		<Time>90</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Broiler-fryer chicken (whole)" Thickness="4-5 lbs">
+		<Cook>Indirect</Cook>
+		<Time>110</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Broiler-fryer chicken (whole)" Thickness="5-6 lbs">
+		<Cook>Indirect</Cook>
+		<Time>135</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Cornish Hen" Thickness="1-2 lbs">
+		<Cook>Direct</Cook>
+		<Time>70</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Breast half (bone-in)" Thickness="6-8 oz">
+		<Cook>Y</Cook>
+		<Cook>Direct</Cook>
+		<Time>20</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Breast half (boneless)" Thickness="6-8 oz">
+		<Cook>Direct</Cook>
+		<Time>20</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Leg or thigh" Thickness="8 oz">
+		<Cook>Direct</Cook>
+		<Time>16</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Drumstick" Thickness="8-16 oz">
+		<Cook>Direct</Cook>
+		<Time>20</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Wing" Thickness="2-3 oz">
+		<Cook>Direct</Cook>
+		<Time>16</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Capon (Stuffed)" Thickness="5-6 lbs">
+		<Cook>Direct</Cook>
+		<Time>150</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Capon (Unstuffed)" Thickness="5-6 lbs">
+		<Cook>Direct</Cook>
+		<Time>180</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Capon (Stuffed)" Thickness="6-8 lbs">
+		<Cook>Direct</Cook>
+		<Time>210</Time>
+	</CookCookr>
+	<CookCookr Name="Chicken" Category="Capon (Unstuffed)" Thickness="6-8 lbs">
+		<Cook>Direct</Cook>
+		<Time>180</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Whole leg (bone-in)" Thickness="12-16 lbs">
+		<Cook>Direct</Cook>
+		<Time>24</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Tenderloin" Thickness="1/2-1 1/2 lbs">
+		<Cook>Direct</Cook>
+		<Time>40</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Top loin roast" Thickness="2 1/2 - 3 lbs">
+		<Cook>Direct</Cook>
+		<Time>90</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Top loin roast" Thickness="4-6 lbs">
+		<Cook>Direct</Cook>
+		<Time>100</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Top loin roast" Thickness="10 lbs">
+		<Cook>Direct</Cook>
+		<Time>130</Time>
+	</CookCookr>
+	<CookCookr Name="Lamb" Category="Chops" Thickness="I inch">
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Lamb" Category="Steaks" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>5</Time>
+	</CookCookr>
+	<CookCookr Name="Lamb" Category="Kabobs" Thickness="1 inch cubes">
+		<Cook>Direct</Cook>
+		<Time>4</Time>
+	</CookCookr>
+	<CookCookr Name="Lamb" Category="Leg of lamb (bone-in)" Thickness="8-10 lbs">
+		<Cook>Direct</Cook>
+		<Time>130</Time>
+	</CookCookr>
+	<CookCookr Name="Lamb" Category="Leg of lamb (boneless)" Thickness="7-8 lbs">
+		<Cook>Direct</Cook>
+		<Time>110</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Turkey (whole)" Thickness="8 -12 lbs">
+		<Cook>Y</Cook>
+		<Cook>Direct</Cook>
+		<Time>180</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Turkey (whole)" Thickness="12-14 lbs">
+		<Cook>Direct</Cook>
+		<Time>210</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Turkey (whole)" Thickness="14-18 lbs">
+		<Cook>Direct</Cook>
+		<Time>240</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Turkey (whole)" Thickness="20-24 lbs">
+		<Cook>Direct</Cook>
+		<Time>285</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Breast (half)" Thickness="2-3 lbs">
+		<Cook>Direct</Cook>
+		<Time>55</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Breast (whole)" Thickness="4-6 lbs">
+		<Cook>Direct</Cook>
+		<Time>80</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Breast (whole)" Thickness="6-8 lbs">
+		<Cook>Direct</Cook>
+		<Time>180</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Drumstick" Thickness="3/4 - 1 lb">
+		<Cook>Direct</Cook>
+		<Time>125</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Thighs" Thickness="3/4 - 1 lb">
+		<Cook>Direct</Cook>
+		<Time>100</Time>
+	</CookCookr>
+	<CookCookr Name="Turkey" Category="Wings" Thickness="6 -8 oz">
+		<Cook>Direct</Cook>
+		<Time>120</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Whole" Thickness="3 -5 lbs">
+		<Cook>Direct</Cook>
+		<Time>26</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Fillets" Thickness="3 -5 lbs">
+		<Cook>Direct</Cook>
+		<Time>26</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Steaks" Thickness="3 -5 lbs">
+		<Cook>Direct</Cook>
+		<Time>38</Time>
+	</CookCookr>
+	<CookCookr Name="Veal" Category="Boneless shoulder roast" Thickness="3 -5 lbs">
+		<Cook>Direct</Cook>
+		<Time>38</Time>
+	</CookCookr>
+	<CookCookr Name="Veal" Category="Leg rump" Thickness="3 -5 lbs">
+		<Cook>Direct</Cook>
+		<Time>38</Time>
+	</CookCookr>
+	<CookCookr Name="Veal" Category="Bonelesss loin roast" Thickness="3 -5 lbs">
+		<Cook>Direct</Cook>
+		<Time>28</Time>
+	</CookCookr>
+	<CookCookr Name="Veal" Category="Rib Roast" Thickness="3 - 5 lbs">
+		<Cook>Direct</Cook>
+		<Time>35</Time>
+	</CookCookr>
+	<CookCookr Name="Veal" Category="Loin " Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>13</Time>
+	</CookCookr>
+	<CookCookr Name="Veal" Category="Shoulder kabobs" Thickness="1 1/4 inch">
+		<Cook>Direct</Cook>
+		<Time>17</Time>
+	</CookCookr>
+	<CookCookr Name="Veal" Category="Ground veal patties" Thickness="1/2 inch">
+		<Cook>Direct</Cook>
+		<Time>13</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Bratwurst" Thickness="1 lbs">
+		<Cook>Direct</Cook>
+		<Time>10</Time>
+	</CookCookr>
+	<CookCookr Name="Beef" Category="Hot Dog" Thickness="1 lbs">
+		<Cook>Y</Cook>
+		<Cook>Direct</Cook>
+		<Time>6</Time>
+	</CookCookr>
+	<CookCookr Name="Pork" Category="Hot Dog" Thickness="1 lbs">
+		<Cook>Y</Cook>
+		<Cook>Direct</Cook>
+		<Time>6</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Black Cod" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>10</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Butterfish" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>10</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Catfish" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>10</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Cod" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>10</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Flounder" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>10</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Grouper" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>12</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Halibut" Thickness="1 inch">
+		<Cook>Y</Cook>
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Mahimahi" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>10</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Marlin" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Salmon" Thickness="1 inch">
+		<Cook>Y</Cook>
+		<Cook>Direct</Cook>
+		<Time>9</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Sea Bass" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>12</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Snapper" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>12</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Sole" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Swordfish" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>8</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Trout" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>9</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Tuna" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>6</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Monkfish" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>12</Time>
+	</CookCookr>
+	<CookCookr Name="Fish" Category="Rockfish" Thickness="1 inch">
+		<Cook>Direct</Cook>
+		<Time>10</Time>
+	</CookCookr>
+</CookCookrs>

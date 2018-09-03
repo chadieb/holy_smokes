@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+           		  <!--  android:screenOrientation="portrait" -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.holysmokes"
+      android:versionCode="10"
+      android:versionName="1.0">
+    <application android:icon="@drawable/small_icon" android:label="@string/app_name" android:theme="@android:style/Theme.Light">
+        <activity android:name=".BbqListActivity"
+           		  android:alwaysRetainTaskState="true"
+                  android:label="@string/app_name">
+              	<intent-filter>           
+                <category android:name="android.intent.category.LAUNCHER" />
+               	<action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimerCreateActivity"
+                  android:label="@string/create_timer_ttl">
+              	<intent-filter>
+            	<category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.holysmokes.TIMERCREATE" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimerMaintainActivity"
+                  android:label="@string/app_name">
+              	<intent-filter>
+            	<category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.holysmokes.TIMERMAINTAIN" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TimerSelectActivity"
+                  android:label="@string/app_name">
+              	<intent-filter>
+            	<category android:name="android.intent.category.DEFAULT" />
+                <action android:name="com.holysmokes.TIMERMSELECT" />
+            </intent-filter>
+        </activity>
+        <service android:name=".util.NotificationService" />
+        <receiver  android:name=".util.AlarmReceiver" android:process=":remote"></receiver>
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.VIBRATE" />
+</manifest> 

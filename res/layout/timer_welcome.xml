@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:background="#FFF" android:orientation="vertical">
+     <TextView android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/welcome_headerTxtView" android:text="What would you like to do:" android:textStyle="bold" android:textSize="8pt" android:textColor="#000" android:layout_marginBottom="5pt"></TextView>
+    <TableLayout android:id="@+id/welcome_tableLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TableRow android:layout_width="wrap_content" android:layout_height="fill_parent" android:id="@+id/welcome_row_select">
+            <ImageButton android:layout_width="wrap_content" android:background="#FFF" android:src="@drawable/select_timer_btn" android:id="@+id/welcome_selectBtn" android:layout_height="wrap_content"></ImageButton>
+            <TextView android:id="@+id/welcome_select_timerTxtView" android:layout_height="wrap_content" android:textColor="#000" android:textSize="6pt" android:layout_width="wrap_content" android:layout_gravity="left|center_vertical" android:text="Select Timers"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/welcome_row_create" android:layout_width="wrap_content" android:layout_height="fill_parent" >
+            <ImageButton android:layout_width="wrap_content" android:background="#FFF" android:id="@+id/welcome_createBtn" android:layout_height="wrap_content" android:src="@drawable/add_btn"></ImageButton>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/welcome_create_timerTxtView" android:textColor="#000" android:textSize="6pt" android:layout_gravity="center_vertical" android:text="Creating a Timer"></TextView>
+        </TableRow>
+        
+        <TableRow android:id="@+id/welcome_row_instant" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:layout_width="wrap_content" android:background="#FFF" android:id="@+id/welcome_instantBtn" android:layout_height="wrap_content" android:src="@drawable/instant_btn"></ImageButton>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/welcome_instant_timerTxtView" android:textColor="#000" android:textSize="6pt" android:layout_gravity="center_vertical" android:text="Use an instant Timer"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/welcome_row_maintain" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <ImageButton android:layout_width="wrap_content" android:background="#FFF" android:id="@+id/welcome_maintainBtn" android:layout_height="wrap_content" android:src="@drawable/edit_btn"></ImageButton>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/welcome_maintain_timerTxtView" android:textColor="#000" android:textSize="6pt" android:layout_gravity="center_vertical" android:text="Edit Timers"></TextView>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

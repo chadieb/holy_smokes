@@ -1,0 +1,55 @@
+<RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#fff">
+  
+  <TextView
+    android:id="@+id/timeItemName"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:textColor="#000" 
+    android:layout_height="wrap_content" 
+    android:textStyle="bold" android:textSize="20sp" 
+    android:text="london broil" 
+    android:layout_width="fill_parent"/>
+ 
+<TextView
+    android:id="@+id/timeItemSubType"
+    android:padding="5dp"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:textSize="20sp"
+    android:layout_below="@+id/timeItemName" 
+    android:layout_height="wrap_content" 
+    android:textColor="#999" 
+    android:layout_alignParentLeft="true" 
+    android:layout_width="fill_parent" 
+    android:text="4 inches think"/>
+ 
+  
+<TextView
+    android:id="@+id/timeItemCookType"
+    android:padding="5dp"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:textSize="20sp"
+    android:layout_below="@+id/timeItemSubType" 
+    android:layout_height="wrap_content" 
+    android:textColor="#999" 
+    android:layout_alignParentLeft="true" 
+    android:text="cook type" 
+    android:layout_width="wrap_content"/>
+
+<TextView android:textSize="20sp" 
+	android:id="@+id/timeItemCookTime" 
+	android:padding="5dp" 
+	android:text="time" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	android:textColor="#999" 
+	android:layout_below="@+id/timeItemSubType" 
+	android:layout_toRightOf="@+id/timeItemCookType" 
+	android:layout_marginLeft="22dp"></TextView>
+
+</RelativeLayout>

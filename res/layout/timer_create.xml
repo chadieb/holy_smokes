@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+  
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/RelativeLayout01" 
+android:background="#FFF"
+android:layout_width="fill_parent" 
+android:padding="5pt" 
+android:orientation="vertical" 
+android:scrollbars="vertical" android:layout_height="wrap_content">
+<ScrollView android:id="@+id/create_scrollView" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:scrollbars="vertical">
+    <LinearLayout android:id="@+id/create_linearLayout02" android:orientation="vertical" android:layout_width="fill_parent" android:scrollbars="vertical" android:layout_height="wrap_content" android:background="#FFF">
+        <TextView android:id="@+id/create_categoryTextView" android:text="Category:" android:textColor="#000" android:textSize="8pt" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+        <TableLayout android:id="@+id/create_categoryTableLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow1" android:layout_width="wrap_content">
+                <Spinner android:layout_weight="1" android:layout_height="wrap_content" android:id="@+id/create_categorySpinner" android:layout_width="fill_parent"></Spinner>
+                <ImageButton android:src="@android:drawable/ic_input_add" android:id="@+id/create_addCategoryBtn" android:layout_height="20pt" android:layout_width="20pt"></ImageButton>
+            	<ImageButton android:id="@+id/create_deleteCategoryBtn" android:layout_height="20pt" android:layout_width="20pt" android:src="@android:drawable/ic_delete"></ImageButton>
+            </TableRow>
+        </TableLayout>
+        <TextView android:id="@+id/create_nameTextView" android:text="Name:" android:textColor="#000" android:textSize="8pt" android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_width="fill_parent" android:id="@+id/create_nameEditText" android:layout_height="wrap_content"></EditText>
+        <TextView android:id="@+id/create_cutTextView" android:text="Cut:" android:textColor="#000" android:textSize="8pt" android:layout_width="wrap_content" android:gravity="right" android:layout_height="wrap_content"></TextView>
+        <EditText android:layout_width="fill_parent" android:id="@+id/create_cutEditText" android:layout_height="wrap_content"></EditText>
+        <TextView android:id="@+id/create_MethodTextView" android:text="Cooking Method: " android:textColor="#000" android:textSize="8pt" android:layout_width="wrap_content" android:gravity="right" android:layout_height="wrap_content"></TextView>
+        <RadioGroup android:id="@+id/create_cookType" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RadioButton android:layout_width="wrap_content" android:textColor="#000" android:layout_marginRight="15px" android:textSize="8pt" android:layout_height="wrap_content" android:id="@+id/create_direct" android:text="Direct"></RadioButton>
+            <RadioButton android:layout_width="wrap_content" android:textColor="#000" android:textSize="8pt" android:layout_height="wrap_content" android:id="@+id/create_indirect" android:text="Indirect"></RadioButton>
+        </RadioGroup>
+        <TextView android:id="@+id/create_CookTimeTextView" android:text="Cooking Time:" android:textColor="#000" android:textSize="8pt" android:layout_width="wrap_content" android:padding="5dp" android:gravity="right" android:layout_height="wrap_content"></TextView>
+        <TimePicker android:id="@+id/create_TimePicker" android:layout_marginBottom="5pt" android:layout_width="wrap_content" android:layout_height="wrap_content"></TimePicker>
+        <TableLayout android:id="@+id/create_intervalTableLayout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow2" android:layout_width="wrap_content" android:background="#1D5083">
+           <TextView android:layout_height="wrap_content" android:id="@+id/create_headerName" android:layout_weight="1" android:layout_gravity="left" android:text="Name" android:textColor="#FFF" android:textSize="6pt" android:textStyle="bold"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/create_headerTime" android:layout_width="wrap_content" android:layout_gravity="left" android:textStyle="bold" android:textSize="6pt" android:textColor="#fff" android:text="Time"></TextView>          
+             <ImageButton android:id="@+id/create__headerBtn" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@android:drawable/ic_delete" android:background="#FFF" android:layout_gravity="center" android:visibility="invisible"></ImageButton>
+            </TableRow>
+        </TableLayout>
+		<!--   <ListView android:layout_height="wrap_content" android:id="@+id/create_intervalList" android:layout_width="wrap_content"></ListView>-->
+        
+        <TableLayout android:id="@+id/create_addIntervalTableLayout" android:layout_width="fill_parent" android:layout_height="20pt">
+            <TableRow android:layout_height="wrap_content" android:id="@+id/create_internalTableRow" android:layout_width="wrap_content">
+                <TextView android:id="@+id/create_addIntervalTxt" android:text="Add Interval" android:paddingRight="5pt" android:textColor="#000" android:textSize="8pt" android:layout_height="wrap_content" android:layout_width="wrap_content" android:gravity="center_vertical" android:layout_gravity="center_vertical"></TextView>
+                <ImageButton android:id="@+id/create_addSubCategoryBtn" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@android:drawable/btn_plus" android:background="#FFF"></ImageButton>
+            </TableRow>
+        </TableLayout>
+        <TableLayout android:id="@+id/create_buttonTableLayout" android:layout_height="wrap_content" android:layout_width="fill_parent">
+        	<TableRow android:layout_height="wrap_content" android:id="@+id/tableRow4" android:layout_width="wrap_content">
+            <Button android:layout_height="wrap_content" android:padding="5dp" android:id="@+id/create_okBtn" android:layout_margin="5pt" android:text="Add" android:layout_weight="1"></Button>
+            <Button android:layout_height="wrap_content" android:padding="5dp" android:id="@+id/create_updateBtn" android:text="Update" android:layout_margin="5pt" android:layout_weight="1"></Button>
+            <Button android:layout_height="wrap_content" android:padding="5dp" android:id="@+id/create_cancelBtn" android:text="Cancel" android:layout_margin="5pt" android:layout_weight="1"></Button>
+        	</TableRow>
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout >

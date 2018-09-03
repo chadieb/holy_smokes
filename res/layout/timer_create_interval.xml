@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_height="wrap_content" android:layout_width="fill_parent" android:id="@+id/create_intervalTableRow">
+            <TextView android:layout_height="wrap_content" android:id="@+id/create_intervalName" android:layout_weight="1" android:layout_gravity="left|center_vertical" android:textSize="6pt" android:text="Mop Sauce Top"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/create_intervalTime" android:layout_gravity="left|center_vertical" android:text="time" android:textSize="6pt" android:layout_width="wrap_content"></TextView>
+            <ImageButton android:id="@+id/create__interval_deleteBtn" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@android:drawable/ic_delete" android:background="#FFF" android:layout_gravity="center"></ImageButton>
+        </TableRow>

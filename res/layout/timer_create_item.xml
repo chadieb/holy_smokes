@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/timer_createItem_tableLayout" 
+	android:orientation="horizontal"
+	android:layout_height="wrap_content" android:background="#FFF" android:layout_width="fill_parent">
+	
+
+<TextView  android:id="@+id/timer_createItem_nameTextView" 
+	android:text="Name" 
+	android:textColor="#000"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" android:padding="2pt" android:typeface="sans" android:textStyle="bold" android:textSize="9pt"></TextView>
+	
+<TextView  android:id="@+id/timer_createItem_cutTextView" 
+	android:text="cut" 
+	android:textColor="#000"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" android:textSize="8pt" android:layout_toRightOf="@+id/timer_createItem_nameTextView" android:padding="3pt"></TextView>
+	
+<TextView  android:id="@+id/timer_createItem_timeTextView" 
+	android:text="time" 
+	android:textColor="#000"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content" android:textSize="8pt" android:layout_below="@+id/timer_createItem_nameTextView" android:padding="2pt"></TextView>
+
+</RelativeLayout>

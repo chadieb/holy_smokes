@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="Pause" android:id="@+id/timer_context_pause"></item>
+<item android:title="Start" android:id="@+id/timer_context_start"></item>
+<item android:title="Update Time" android:id="@+id/timer_context_update_time"></item>
+<item android:title="Restart" android:id="@+id/timer_context_restart"></item>
+<item android:title="Delete" android:id="@+id/timer_context_delete"></item>
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="#FFF" android:layout_height="wrap_content" android:layout_width="wrap_content">
+
+    <EditText
+        android:id="@+id/dialog_catagory_edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="" >
+</EditText>
+
+<TableLayout android:layout_width="fill_parent" android:id="@+id/dialog_catagory_table" android:layout_below="@+id/dialog_catagory_edittext" android:layout_height="wrap_content">
+<TableRow android:layout_gravity="center" 
+android:id="@+id/dialog_catagory_tableRow" 
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent">
+    <Button android:textSize="8pt" android:id="@+id/dialog_catagory_okBtn" android:layout_height="wrap_content" android:text="Ok" android:layout_gravity="center_horizontal" android:layout_weight="1.5"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/dialog_catagory_cancelBtn" android:text="Cancel" android:textSize="8pt" android:layout_gravity="center_horizontal" android:layout_weight="1" android:layout_width="100px"></Button>
+</TableRow>
+</TableLayout>
+</RelativeLayout>

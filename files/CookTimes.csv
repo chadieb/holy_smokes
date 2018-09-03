@@ -1,0 +1,102 @@
+Category,Name,Thickness,Cook,Time (min)
+Beef,Flank steak,,Direct,17
+Beef,New York strip, 1-1½ lbs,Direct,11
+Beef,Ribeye,¾ in.,Direct,8
+Beef,Porterhouse,1 in,Direct,8
+Beef,Porterhouse,1 1/2 in,Direct,13
+Beef,Porterhouse,2 in,Direct,18
+Beef,Ribeye sirloin,1 in,Direct,8
+Beef,Ribeye sirloin,1 1/2 in,Direct,13
+Beef,Ribeye sirloin,2 in,Direct,18
+Beef,T-Bone,1 in,Direct,8
+Beef,T-Bone,1 1/2 in,Direct,13
+Beef,T-Bone,2 in,Direct,18
+Beef,Top loin,1 in,Direct,8
+Beef,Top loin,1 1/2 in,Direct,13
+Beef,Top loin,2 in,Direct,18
+Beef,Brisket,5-6 lbs,Indirect,90
+Beef,Eye of round,2-3 lbs,Indirect,105
+Beef,Rib Eye,4-6 lbs,Indirect,150
+Beef,Rib Roast,4-6 lbs,Indirect,135
+Beef,Sirloin Roast,2-3 lbs,Indirect,60
+Beef,Half Tenderloin,4-5 lbs,Indirect,90
+Beef,Tri Tip,3-5 lbs,Indirect,120
+Beef,Tri Tip,6-8 lbs,Indirect,180
+Beef,Top Round,4-6 lbs,Indirect,90
+Pork,Blade Steaj,1/2 in,Direct,12
+Pork,Chops,3/4-2 in,Direct,15
+Pork,Loin,1 1/2 in,Direct,42
+Pork,Ribs,1 1/2 in,Indirect,90
+Pork,Shoulder,6 lbs,Indirect,360
+Pork,Spare Ribs,3-4 lbs,Indirect,75
+Beef,Meatloaf,1 1/2 lbs,Direct,75
+Beef,Hamburger Patty,6 oz,Direct,7
+Beef,Chuck pot roast,3-5 lbs,Direct,140
+Pork,Boston butt,3-6 lbs,Direct,180
+Pork,Boneless top loin roast,2-4 lbs,Direct,60
+Pork,Whole ham (bone-in),12-14 lbs,Direct,145
+Chicken,"Broiler-fryer chicken, halves",1 1/2-2 lbs,Indirect,70
+Chicken,"Broiler-fryer chicken, whole",3-4 lbs,Indirect,90
+Chicken,"Broiler-fryer chicken, whole",4-5 lbs,Indirect,110
+Chicken,"Broiler-fryer chicken, whole",5-6 lbs,Indirect,135
+Chicken,Cornish Hen,1-2 lbs,Direct,70
+Chicken,Breast half (bone-in),6-8 oz,Direct,20
+Chicken,Breast half (boneless),6-8 oz,Direct,20
+Chicken,Leg or thigh,8 oz,Direct,16
+Chicken,Drumstick,8 - 16 oz,Direct,20
+Chicken,Wing,2 -3 oz,Direct,16
+Chicken,Capon (Stuffed),5-6 lbs,Direct,150
+Chicken,Capon (Unstuffed),5-6 lbs,Direct,180
+Chicken,Capon (Stuffed),6-8 lbs,Direct,210
+Chicken,Capon (Unstuffed),6-8 lbs,Direct,180
+Pork,"Whole leg (fresh ham, bone-in)",12-16 lbs,Direct,24
+Pork,Tenderloin,1/2- 1 1/2 lbs,Direct,40
+Pork,Top loin roast,2 1/2 - 3 lbs,Direct,90
+Pork,Top loin roast,4-6 lbs,Direct,100
+Pork,Top loin roast,10 lbs,Direct,130
+Lamb,Chops,I inch,Direct,8
+Lamb,Steaks,1 inch,Direct,5
+Lamb,Kabobs,1 inch cubes,Direct,4
+Lamb,Leg of lamb (bone-in),8-10 lbs,Direct,130
+Lamb,Leg of lamb (boneless),7-8 lbs,Direct,110
+Turkey,Turkey (whole),8 -12 lbs,Direct,180
+Turkey,Turkey (whole),12-14 lbs,Direct,210
+Turkey,Turkey (whole),14-18 lbs,Direct,240
+Turkey,Turkey (whole),20-24 lbs,Direct,285
+Turkey,Breast (half),2-3 lbs,Direct,55
+Turkey,Breast (whole),4-6 lbs,Direct,80
+Turkey,Breast (whole),6-8 lbs,Direct,180
+Turkey,Drumstick,3/4 - 1 lb,Direct,125
+Turkey,Thighs,3/4 - 1 lb,Direct,100
+Turkey,Wings,6 -8 oz,Direct,120
+Fish,Whole,3 -5 lbs,Direct,26
+Fish,Fillets,3 -5 lbs,Direct,26
+Fish,Steaks,3 -5 lbs,Direct,38
+Veal,Boneless shoulder roast,3 -5 lbs,Direct,38
+Veal,Leg rump,3 -5 lbs,Direct,38
+Veal,Bonelesss loin roast,3 -5 lbs,Direct,28
+Veal,Rib Roast,3 - 5 lbs,Direct,35
+Veal,Loin ,1 inch,Direct,13
+Veal,Shoulder kabobs,1 1/4 inch,Direct,17
+Veal,Ground veal patties,1/2 inch,Direct,13
+Pork,Bratwurst,1 lbs,Direct,10
+Beef,Hot Dog,1 lbs,Direct,6
+Pork,Hot Dog,1 lbs,Direct,6
+Fish,Black Cod,1 inch,Direct,10
+Fish,Butterfish,1 inch,Direct,10
+Fish,Catfish,1 inch,Direct,10
+Fish,Cod,1 inch,Direct,10
+Fish,Flounder,1 inch,Direct,10
+Fish,Grouper,1 inch,Direct,12
+Fish,Halibut,1 inch,Direct,8
+Fish,Mahimahi,1 inch,Direct,10
+Fish,Marlin,1 inch,Direct,8
+Fish,Salmon,1 inch,Direct,9
+Fish,Sea Bass,1 inch,Direct,12
+Fish,Snapper,1 inch,Direct,12
+Fish,Sole,1 inch,Direct,8
+Fish,Swordfish,1 inch,Direct,8
+Fish,Trout,1 inch,Direct,9
+Fish,Tuna,1 inch,Direct,6
+Fish,Monkfish,1 inch,Direct,12
+Fish,Rockfish,1 inch,Direct,10

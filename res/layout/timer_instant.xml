@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:background="#FFF">
+
+<ScrollView android:id="@+id/instance_scrollView" 
+    android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:scrollbars="vertical">
+	
+	
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content" android:background="#FFF">
+
+        <TextView android:layout_height="wrap_content" android:id="@+id/instant_nameTextView" android:layout_width="fill_parent" android:textSize="8pt" android:text="Name:" android:textColor="#000"></TextView>
+        <EditText android:layout_height="wrap_content" android:id="@+id/instant_nameEditText" android:layout_width="fill_parent" android:layout_below="@+id/instant_nameTextView"></EditText>
+    
+<TableLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:layout_below="@+id/instant_timePicker" android:paddingTop="5pt">
+
+
+<TableRow android:layout_gravity="center" 
+android:id="@+id/instant_tableRow1" 
+android:layout_height="fill_parent" 
+android:layout_width="fill_parent">
+    <Button android:textSize="8pt" android:id="@+id/instant_okBtn" android:layout_height="wrap_content" android:text="Ok" android:layout_gravity="center_horizontal" android:layout_weight="1.5" android:layout_marginRight="5pt"></Button>
+    <Button android:layout_height="wrap_content" android:id="@+id/instant_cancelBtn" android:text="Cancel" android:textSize="8pt" android:layout_gravity="center_horizontal" android:layout_weight="1" android:layout_marginLeft="5pt"></Button>
+</TableRow>
+</TableLayout>
+<TimePicker android:id="@+id/instant_timePicker" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_below="@+id/instant_nameEditText">></TimePicker>
+</RelativeLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:id="@+id/bbq_add" android:title="Select a Timer" android:icon="@drawable/select_timer_btn"></item>
+  <item android:id="@+id/bbq_create" android:title="Create a Timer" android:icon="@drawable/add_btn"></item>
+  <item android:id="@+id/bbq_instant" android:icon="@drawable/instant_btn" android:title="Instant Timer"></item>
+  <item android:id="@+id/bbq_edit" android:title="Edit Timers" android:icon="@drawable/edit_btn"></item>
+  <item android:id="@+id/bbq_play" android:title="Start All Timers" android:icon="@drawable/play_btn" android:visible="false"></item>
+  <item android:id="@+id/bbq_pause" android:title="Pause All Timers" android:icon="@drawable/pause_btn" android:visible="false"></item>
+  <item android:id="@+id/bbq_log" android:title="Show Logs" android:visible="false"></item>
+</menu>

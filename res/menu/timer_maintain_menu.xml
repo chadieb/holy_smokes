@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	
+	<item android:id="@+id/timer_maintain_add" android:title="Create Timer" android:icon="@drawable/add_btn"></item>
+	<item android:id="@+id/timer_maintain_timerList" android:title="Timer List" android:icon="@drawable/select_timer_btn"></item>
+</menu>

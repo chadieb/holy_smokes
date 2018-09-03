@@ -1,0 +1,41 @@
+<RelativeLayout 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#fff" android:padding="1pt">
+  
+  <TextView
+    android:id="@+id/timeItemName"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+  android:textColor="#000" 
+  android:layout_height="wrap_content" android:textStyle="bold" android:textSize="20sp" android:text="london broil" android:layout_toLeftOf="@+id/timerView" android:layout_alignParentLeft="true" android:layout_width="fill_parent"/>
+ 
+<TextView
+    android:id="@+id/timeItemSubType"
+    android:padding="5dp"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:textSize="20sp"
+    android:layout_below="@+id/timeItemName" 
+    android:layout_height="wrap_content" 
+    android:textColor="#999" android:layout_toLeftOf="@+id/timerView" android:layout_alignParentLeft="true" android:layout_width="fill_parent" android:text="4 inches think"/>
+ 
+  
+<TextView
+    android:id="@+id/timeItemCookType"
+    android:padding="5dp"
+    android:scrollbars="vertical"
+    android:fadingEdge="vertical"
+    android:textSize="20sp"
+    android:layout_below="@+id/timeItemSubType" 
+    android:layout_height="wrap_content" 
+    android:textColor="#999" android:layout_alignParentLeft="true" android:text="cook type" android:layout_width="wrap_content"/>
+
+
+<com.holysmokes.view.TimerView android:id="@+id/timerView" 
+	android:layout_alignParentRight="true" 
+	android:layout_height="97px" android:layout_width="90px" android:layout_marginRight="5pt" android:layout_centerVertical="true"></com.holysmokes.view.TimerView>
+<TextView android:id="@+id/timeItemCookTime" android:textSize="20sp" android:textColor="#999" android:padding="5dp" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="time" android:layout_below="@+id/timeItemSubType" android:layout_toRightOf="@+id/timeItemCookType" android:layout_marginLeft="23dp"></TextView>  
+
+</RelativeLayout>
